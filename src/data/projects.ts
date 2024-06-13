@@ -16,7 +16,7 @@ export const projectData: TProject[] = [
     img: social,
     title: 'Social network',
     stack: ['React', 'Redux Toolkit', 'React-router-dom', 'Node.js(Express)'],
-    link: 'https://github.com/old7evenn/react-redux-toolkit',
+    link: 'https://github.com/old7evennn/social-network-client.github.io.git',
   },
   {
     img: employee,
