@@ -19,7 +19,7 @@ type Experience = {
 export const aboutData: AboutData = {
   text: [
     `Greetings 👋🏻, my name is Roman and I'm glad to see you in my portfolio!`,
-    `I've been in IT for more than 2 years, more than 1.5 years doing frontend development of commercial projects. 
+    `I've been in IT for more than 1 years, more than 0.5 years doing frontend development of commercial projects. 
     Last year I have been actively developing web applications (React).`,
     `In all that time, I've managed to work independently as a freelancer and 
     I've worked for a small company.`,
