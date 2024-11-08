@@ -1,4 +1,3 @@
-
 interface AboutData {
   text: string[];
   list: List;
@@ -18,9 +17,9 @@ type Experience = {
 
 export const aboutData: AboutData = {
   text: [
-    `Greetings 👋🏻, my name is Roman and I'm glad to see you in my portfolio!`,
+    "Greetings 👋🏻, my name is Roman and I'm glad to see you in my portfolio!",
     `I've been in IT for more than 2 years, more than 1.5 years doing frontend development of commercial projects. 
-    Last year I have been actively developing web applications (React).`,
+    I am actively involved in web application development (React and Next.js).`,
     `In all that time, I've managed to work independently as a freelancer and 
     I've worked for a small company.`,
     `In 2023, I entered the university to study Computer Science and Information Technology.
@@ -35,8 +34,8 @@ export const aboutData: AboutData = {
     title: 'Skils:',
     items: [
       `Good experience in developing complex and responsive websites/web applications.  
-      Web application development with <b> React.js (+ Typescript, Hooks, Axios, Redux(RTK Query)), Next.js, Vite</b>`,
-      `Backend: <b>Node.js, Express.js, MongoDB, Prisma, REST API, JWT, OAuth2.0, Docker</b>`,
+      Web application development with <b> React, Next.js (+ Typescript, Hooks, Axios, Redux(RTK Query), React-Hook-Form, Zod, Prettier, ESLint), Vite</b>`,
+      'Backend: <b>Node.js, Express.js, MongoDB, Prisma, REST API, JWT, OAuth2.0, Docker</b>',
       `Advanced <b>HTML</b> (HTML5 API, good understanding of semantic tags),  
       <b>Tailwind CSS</b> (flexbox, grid, animation css), <b>JavaScript</b> (ES6+);
       `,
@@ -51,7 +50,8 @@ export const experienceData: Experience[] = [
     date: '09.2023 - 02.2024',
     description: `
     My responsibilities included creating the company's main website, 
-    developing its functionality, maintaining its operation, and optimizing it.
+    developing its functionality, maintaining its operation, and optimizing it. 
+    I also worked on enhancing the website's SEO, integrating third-party APIs, and ensuring cross-browser compatibility. 
     `,
     techlogies: [
       'React',
@@ -73,6 +73,8 @@ export const experienceData: Experience[] = [
       'React',
       'Redux',
       'React-router',
+      'Node.js',
+      'Express.js',
       'Tailwind CSS',
       'Github',
       'Docker',

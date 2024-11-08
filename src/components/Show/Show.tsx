@@ -7,11 +7,11 @@ interface ShowProps {
 export const Show: FC<ShowProps> & {
   When: FC<{ isTrue: boolean; children: ReactNode }>;
   Else: FC<{ render: ReactNode; children: ReactNode }>;
-} = (props) => {
+} = props => {
   let when: ReactNode | null = null;
   let otherwise: ReactNode | null = null;
 
-  Children.forEach(props.children, (child) => {
+  Children.forEach(props.children, child => {
     const children = child as React.ReactElement;
 
     if (children.props.isTrue === undefined) {

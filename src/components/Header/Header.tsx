@@ -30,21 +30,21 @@ const nav: Nav[] = [
 
 const Header = () => {
   return (
-    <header className='header'>
-      <div className='container header__inner'>
+    <header className="header">
+      <div className="container header__inner">
         <ScrollLink
           spy={true}
           hashSpy={false}
           smooth={true}
           duration={500}
-          to='main'
-          className='header__logo'
+          to="main"
+          className="header__logo"
         >
-          <img src={logo} alt='logo' />
+          <img src={logo} alt="logo" />
         </ScrollLink>
 
-        <nav className='header__nav'>
-          <ul className='header__nav--list'>
+        <nav className="header__nav">
+          <ul className="header__nav--list">
             {nav.map(({ to, title }) => (
               <li key={to + title}>
                 <ScrollLink
@@ -53,7 +53,7 @@ const Header = () => {
                   hashSpy={false}
                   smooth={true}
                   duration={500}
-                  activeClass='active'
+                  activeClass="active"
                   offset={0}
                 >
                   {title}
