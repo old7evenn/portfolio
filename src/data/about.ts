@@ -51,7 +51,8 @@ export const experienceData: Experience[] = [
     description: `
     My responsibilities included creating the company's main website, 
     developing its functionality, maintaining its operation, and optimizing it. 
-    I also worked on enhancing the website's SEO, integrating third-party APIs, and ensuring cross-browser compatibility. 
+    I also worked on enhancing the website's SEO, integrating third-party APIs, and ensuring cross-browser compatibility.
+    Optimised the site's loading speed by 20%, which improved user experience and search engine rankings.
     `,
     techlogies: [
       'React',
@@ -66,7 +67,9 @@ export const experienceData: Experience[] = [
     where: 'Freelance (Fullstack)',
     date: '02.2024 - 05.2024',
     description: `
-    Worked as a freelancer, creating dynamic and high-performance web applications. Main responsibilities included developing interactive user interfaces using a component-based approach to ensure high reusability and code maintainability. Managed application state to ensure efficient and predictable user interface behavior. Created Docker files and configured Docker Compose to work with multi-service architectures.  
+    Worked as a freelancer, creating dynamic and high-performance web applications.
+    Main responsibilities included developing interactive user interfaces using a component-based approach to ensure high reusability and code maintainability. 
+    Managed application state to ensure efficient and predictable user interface behavior. Created Docker files and configured Docker Compose to work with multi-service architectures.  
     Ensured effective communication with clients to achieve required results on time and according to project specifications.
     `,
     techlogies: [
