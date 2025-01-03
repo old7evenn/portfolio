@@ -3,7 +3,7 @@ import apiExplorer from '@/assets/projects/api_explorer.png';
 import employee from '@/assets/projects/employee.png';
 import sdProdaction from '@/assets/projects/sd_prodaction.png';
 import social from '@/assets/projects/social.png';
-import pokeFight from '@/assets/projects/poke_fight.png';
+// import pokeFight from '@/assets/projects/poke_fight.png';
 
 type TProject = {
   img: string;
