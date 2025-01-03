@@ -5,8 +5,15 @@
 }
 
 .text-border {
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
-    1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow:
+    -1px -1px 0 #000,
+    0 -1px 0 #000,
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    1px 1px 0 #000,
+    0 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 0 0 #000;
   color: #fff;
 }
 
@@ -25,19 +32,30 @@
   border-radius: 16px 16px 0px 16px;
   border: 2px solid #000;
   /* box-shadow: 2px 2px 0px 0px #fff, 4px 4px 0px 1px #000; */
-  box-shadow: 4px 4px 0px -1px #fff, 4px 4px 0px 1px #000;
+  box-shadow:
+    4px 4px 0px -1px #fff,
+    4px 4px 0px 1px #000;
   padding: 0.3em 2.5em;
   cursor: pointer;
   transition: box-shadow 0.2s ease;
 }
 
 .def__btn:hover {
-  box-shadow: 0px 0px 0px -1px #fff, 0px 0px 0px 0px #000;
+  box-shadow:
+    0px 0px 0px -1px #fff,
+    0px 0px 0px 0px #000;
 }
 
 .text-border {
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
-    1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow:
+    -1px -1px 0 #000,
+    0 -1px 0 #000,
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    1px 1px 0 #000,
+    0 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 0 0 #000;
   color: #fff;
 }
 

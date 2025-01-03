@@ -1,4 +1,3 @@
-
 interface AboutData {
   text: string[];
   list: List;
@@ -18,11 +17,10 @@ type Experience = {
 
 export const aboutData: AboutData = {
   text: [
-    `Greetings 👋🏻, my name is Roman and I'm glad to see you in my portfolio!`,
-    `I've been in IT for more than 2 years, more than 1.5 years doing frontend development of commercial projects. 
-    Last year I have been actively developing web applications (React).`,
-    `In all that time, I've managed to work independently as a freelancer and 
-    I've worked for a small company.`,
+    "Greetings 👋🏻, my name is Roman and I'm glad to see you in my portfolio!",
+    `I'm an 18-year old dedicated software developer with 2+ years of experience in 
+     developing web applications using modern JavaScript technologies. I am a fast learner
+     and a team player, able to adapt to new technologies and methodologies.`,
     `In 2023, I entered the university to study Computer Science and Information Technology.
     Now I am continuing my education at this university, deepening my knowledge and skills in
     programming, system administration, cybersecurity, and data analysis. My studies include 
@@ -35,11 +33,10 @@ export const aboutData: AboutData = {
     title: 'Skils:',
     items: [
       `Good experience in developing complex and responsive websites/web applications.  
-      Web application development with <b> React.js (+ Typescript, Hooks, Axios, Redux(RTK Query)), Next.js, Vite</b>`,
-      `Backend: <b>Node.js, Express.js, MongoDB, Prisma, REST API, JWT, OAuth2.0, Docker</b>`,
+      Web application development with <b> React, Next.js (+ Typescript, Axios, Redux(RTK Query), TanStack, React-Hook-Form, Zod, Prettier, ESLint), Vite</b>`,
+      'Backend: <b>NestJs, Node.js, Express.js, MongoDB, Prisma, Docker</b>',
       `Advanced <b>HTML</b> (HTML5 API, good understanding of semantic tags),  
-      <b>Tailwind CSS</b> (flexbox, grid, animation css), <b>JavaScript</b> (ES6+);
-      `,
+      <b>Tailwind CSS</b> (flexbox, grid, animation css), <b>JavaScript</b> (ES6+);`,
       'Experience in using graphic editors: <b>Figma</b>',
     ],
   },
@@ -47,35 +44,33 @@ export const aboutData: AboutData = {
 
 export const experienceData: Experience[] = [
   {
-    where: 'SD Company (Frontend Developer)',
-    date: '09.2023 - 02.2024',
+    where: 'Python Automation Masters (Frontend Developer)',
+    date: '02.2024 - 12.2024',
     description: `
-    My responsibilities included creating the company's main website, 
-    developing its functionality, maintaining its operation, and optimizing it.
-    `,
+    Led frontend development of recruitment platform that enables HR professionals to manage candidates and conduct AI-powered interviews.
+    Designed and developed a comprehensive dashboard system using React and Tanstack.
+    Implemented routing and optimised page loading using TanStack Router by setting up lazy page loading and private routes.
+    Implemented optimistic updates for CRUD operations.
+    Built efficient data caching system reducing API calls by 40%.`,
     techlogies: [
       'React',
-      'Redux',
-      'React-router',
-      'Styled Components',
-      'Github',
+      'TanStack',
+      'React-Hook-Form',
+      'MUI',
     ],
   },
-
   {
-    where: 'Freelance (Fullstack)',
-    date: '02.2024 - 05.2024',
+    where: 'SD Company (Frontend Developer)',
+    date: '01.2023 - 02.2024',
     description: `
-    Worked as a freelancer, creating dynamic and high-performance web applications. Main responsibilities included developing interactive user interfaces using a component-based approach to ensure high reusability and code maintainability. Managed application state to ensure efficient and predictable user interface behavior. Created Docker files and configured Docker Compose to work with multi-service architectures.  
-    Ensured effective communication with clients to achieve required results on time and according to project specifications.
+    Developed and maintained a responsive company website, improving loading speed by 20%. 
+    Improved the site’s loading speed by 20% through code refactoring, lazy loading, and efficient asset management, enhancing user experience and SEO rankings.
+    Built a custom admin panel for managing smart washing machines, enabling real-time monitoring and control.
     `,
     techlogies: [
       'React',
-      'Redux',
-      'React-router',
-      'Tailwind CSS',
-      'Github',
-      'Docker',
+      'RTK Query',
+      'Styled Components',
     ],
   },
 ];

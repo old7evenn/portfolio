@@ -1,17 +1,19 @@
 import './skills.css';
 
-import html from '@/assets/skills/html.png';
 import css from '@/assets/skills/css.png';
+import figma from '@/assets/skills/figma.webp';
+import firebase from '@/assets/skills/firebase.png';
+import html from '@/assets/skills/html.png';
 import js from '@/assets/skills/js.png';
-import ts from '@/assets/skills/ts.png';
+import next from '@/assets/skills/next-js.svg';
+import nodeJs from '@/assets/skills/nodejs.png';
+import prismaOrm from '@/assets/skills/prisma-orm.png';
 import react from '@/assets/skills/react.png';
 import redux from '@/assets/skills/redux.png';
-import reactRouter from '@/assets/skills/reactRouter.png';
 import sass from '@/assets/skills/sass.png';
+import nestJs from '@/assets/skills/nestJs.svg';
 import tailwind from '@/assets/skills/tailwind.svg';
-import figma from '@/assets/skills/figma.webp';
-import next from '@/assets/skills/next-js.svg';
-
+import ts from '@/assets/skills/ts.png';
 import Ticker from '@/components/Ticker/Ticker';
 
 interface Skill {
@@ -37,18 +39,33 @@ const skillsData: Skill[] = [
     level: 'advanced',
   },
   {
-    title: 'Redux',
+    title: 'Redux (RTK Query)',
     img: redux,
-    level: 'advanced',
-  },
-  {
-    title: 'React-router',
-    img: reactRouter,
     level: 'advanced',
   },
   {
     title: 'Javascript',
     img: js,
+    level: 'advanced',
+  },
+  {
+    title: 'NestJs',
+    img: nestJs,
+    level: 'advanced',
+  },
+  {
+    title: 'Node.js',
+    img: nodeJs,
+    level: 'advanced',
+  },
+  {
+    title: 'Prisma ORM',
+    img: prismaOrm,
+    level: 'advanced',
+  },
+  {
+    title: 'Firebase',
+    img: firebase,
     level: 'advanced',
   },
   {
@@ -80,14 +97,14 @@ const skillsData: Skill[] = [
 
 const Skills = () => {
   return (
-    <section id='skills' className='skills'>
-      <div className='skills__inner'>
-        <h2 className='section__title text-border tac'>skills</h2>
+    <section id="skills" className="skills">
+      <div className="skills__inner">
+        <h2 className="section__title text-border tac">skills</h2>
 
-        <ul className='skills__list'>
+        <ul className="skills__list">
           {skillsData.map(({ title, img, level }) => (
-            <li className='skill__item skill__border' key={title + level}>
-              <div className='skill__img '>
+            <li className="skill__item skill__border" key={title + level}>
+              <div className="skill__img ">
                 <img src={img} alt={title} />
               </div>
               <span>{title}</span>
