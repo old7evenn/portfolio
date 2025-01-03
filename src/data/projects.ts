@@ -30,7 +30,7 @@ export const projectData: TProject[] = [
   {
     img: social,
     title: 'Social network',
-    stack: ['React', 'Redux Toolkit', 'React-router-dom', 'Node.js(Express)'],
+    stack: ['React', 'RTK Query', 'Node.js(Express)'],
     link: 'https://social-network-client-github-io.vercel.app',
   },
   {
@@ -39,7 +39,6 @@ export const projectData: TProject[] = [
     stack: [
       'React',
       'RTK Query',
-      'React-router-dom',
       'Node.js(Express)',
       'DND Kit',
     ],
@@ -53,6 +52,7 @@ export const projectData: TProject[] = [
       'React',
       'RTK Query',
       'React-hook-form',
+      'Shadcn Ui',
       'Axios',
       'Rest API',
       'GraphQL',
