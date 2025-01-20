@@ -3,7 +3,7 @@ import apiExplorer from '@/assets/projects/api_explorer.png';
 import employee from '@/assets/projects/employee.png';
 import sdProdaction from '@/assets/projects/sd_prodaction.png';
 import social from '@/assets/projects/social.png';
-// import pokeFight from '@/assets/projects/poke_fight.png';
+import pokeFight from '@/assets/projects/poke_fight.png';
 
 type TProject = {
   img: string;
@@ -15,12 +15,12 @@ type TProject = {
 };
 
 export const projectData: TProject[] = [
-  // {
-  //   img: pokeFight,
-  //   title: 'Poke - Fight',
-  //   stack: ['React', 'TanStack', 'Motion', 'Tailwin CSS', 'NestJs', 'TypeORM', 'PostgreSQL'],
-  //   link: 'https://github.com/old7evenn/poke-fight',
-  // },
+  {
+    img: pokeFight,
+    title: 'Poke - Fight',
+    stack: ['React', 'TanStack', 'Motion', 'Tailwin CSS', 'NestJs', 'TypeORM', 'PostgreSQL'],
+    link: 'https://poke-fight-one.vercel.app',
+  },
   {
     img: sdProdaction,
     title: 'SD Prodaction',
