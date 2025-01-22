@@ -52,12 +52,7 @@ export const experienceData: Experience[] = [
     Implemented routing and optimised page loading using TanStack Router by setting up lazy page loading and private routes.
     Implemented optimistic updates for CRUD operations.
     Built efficient data caching system reducing API calls by 40%.`,
-    techlogies: [
-      'React',
-      'TanStack',
-      'React-Hook-Form',
-      'MUI',
-    ],
+    techlogies: ['React', 'TanStack', 'React-Hook-Form', 'MUI'],
   },
   {
     where: 'SD Company (Frontend Developer)',
@@ -67,10 +62,6 @@ export const experienceData: Experience[] = [
     Improved the site’s loading speed by 20% through code refactoring, lazy loading, and efficient asset management, enhancing user experience and SEO rankings.
     Built a custom admin panel for managing smart washing machines, enabling real-time monitoring and control.
     `,
-    techlogies: [
-      'React',
-      'RTK Query',
-      'Styled Components',
-    ],
+    techlogies: ['React', 'RTK Query', 'Styled Components'],
   },
 ];
