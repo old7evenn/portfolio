@@ -1,4 +1,4 @@
-import { Link as ScrollLink } from 'react-scroll';
+import ReactScroll from 'react-scroll';
 
 import logo from '@/assets/logo.svg';
 
@@ -28,19 +28,21 @@ const nav: Nav[] = [
   },
 ];
 
+const Link = ReactScroll.Link as any
+
 export const Header = () => {
   return (
     <header className="header">
       <div className="container header__inner">
-        <ScrollLink spy className="header__logo" hashSpy={false} duration={500} smooth to="main">
+        <Link spy className="header__logo" hashSpy={false} duration={500} smooth to="main">
           <img alt="logo" src={logo} />
-        </ScrollLink>
+        </Link>
 
         <nav className="header__nav">
           <ul className="header__nav--list">
             {nav.map(({ to, title }) => (
               <li key={to + title}>
-                <ScrollLink
+                <Link
                   spy
                   activeClass="active"
                   hashSpy={false}
@@ -50,7 +52,7 @@ export const Header = () => {
                   to={to}
                 >
                   {title}
-                </ScrollLink>
+                </Link>
               </li>
             ))}
           </ul>
