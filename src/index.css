@@ -1,0 +1,17 @@
+@import url(./styles/main.css);
+@import url(./styles/font.css);
+
+:root {
+  --ff-rubik: 'Rubik', sans-serif;
+  --ff-raleway: 'Raleway', sans-serif;
+  --border-transforms: 4px 4px 0px -1px #fff, 4px 4px 0px 1px #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-raleway);
+  line-height: 1.5rem;
+  letter-spacing: 0.04rem;
+}
