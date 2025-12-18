@@ -18,21 +18,22 @@ interface Experience {
 export const aboutData: AboutData = {
   text: [
     "Greetings 👋🏻, my name is Roman and I'm glad to see you in my portfolio!",
-    `My expertise lies in the React and TypeScript ecosystem, where I focus on creating 
-    high-performance web applications and desktop. What truly drives me are the complex 
-    integration challenges: architecting solutions that connect intuitive user interfaces
-    with the intricate logic of low-level systems and hardware. I'm not just building UIs; 
-    I'm engineering complete, end-to-end user experiences.`,
-    `I am currently advancing my skills through a Computer Science degree, constantly
-     seeking to combine academic fundamentals with real-world problem-solving.`,
+    `I am a Frontend Engineer focused on building high-performance web interfaces
+      and complex desktop ecosystems. My expertise bridges the gap between sleek UI
+      and heavy engineering: from optimizing Core Web Vitals to writing low-level 
+      hardware drivers for Electron.`,
+    `I don't just write code; I architect solutions. Whether it's decoupling legacy
+      monoliths using Adapter patterns, engineering custom heuristic algorithms for 
+      barcode scanning, or isolating blocking I/O operations in Node.js child processes — 
+      I solve expensive business problems with strict type safety and scalable architecture.`,
   ],
   list: {
-    title: 'Skils:',
+    title: 'Core Competencies:',
     items: [
-      'Architecting and developing complex, high-performance applications using a modern frontend stack: <b>React, Next.js, TypeScript, Redux (RTK), and TanStack Query</b>.',
-      'Building robust Electron desktop applications, including writing low-level hardware drivers (<b>CCNET</b>), creating fault-tolerant architectures with <b>Node.js child_process</b>, and integrating native DLLs.',
-      'Mastery of modern UI development, creating sophisticated interfaces with semantic <b>HTML5</b>, advanced <b>CSS (Tailwind CSS)</b>, and building complex, validated forms with <b>React Hook Form</b> and <b>Zod</b>.',
-      'Experience in the full development lifecycle, from building and containerizing backend services (<b>NestJS, Docker, PostgreSQL</b>) to designing UI/UX in <b>Figma</b>.',
+      'Architecting scalable, high-performance applications using the modern stack: <b>React, Next.js, TypeScript, Redux (RTK Query), Zustand and TanStack Query</b>.',
+      'Engineering sophisticated UI systems with <b>Tailwind CSS</b> and architecting complex, type-safe validation flows using <b>React Hook Form</b> and <b>Zod</b>.',
+      'Building fault-tolerant Electron desktop applications: writing low-level hardware drivers (<b>CCNET</b>), isolating I/O with <b>Node.js child_process</b>, and integrating native DLLs.',
+      'Managing the full development lifecycle: from containerizing backend services (<b>NestJS, Docker, PostgreSQL</b>) to designing user experiences in <b>Figma</b>.',
     ],
   },
 };
@@ -42,23 +43,27 @@ export const experienceData: Experience[] = [
     where: 'Python Automation Masters (Software Engineer)',
     date: '02.2024 - present',
     description: `
-      Architected a fault-tolerant parking automation ecosystem (Electron & PWA). Engineered its core components, from a custom binary protocol driver (CCNET) and multi-process hardware layer (Node.js child_process) to a real-time UI with WebSockets.
+      Led engineering for two critical products. For the <b>"Tviy Kvytok"</b> platform, I decoupled a legacy monolith using the <b>Adapter Pattern</b>, engineered a browser-based <b>ZXing scanner</b> (+40% scan rate), and architected a <b>Quality Ecosystem (CI/CD, Datadog)</b> that cut regression bugs by ~40%. 
+      Simultaneously, for the <b>Parking Ecosystem</b> (<b>1M+ UAH/mo</b>), I built a fault-tolerant Electron kiosk with <b>Zero Downtime</b>. Designed custom <b>Redux Middleware</b> for IPC and isolated blocking hardware I/O in <b>Node.js child processes</b>, ensuring 60 FPS performance under heavy load.
     `,
     technologies: [
+      'Next.js',
       'React',
       'TypeScript',
-      'RTK',
-      'TanStack(Query, Router)',
       'Electron',
-      'WebSockets',
+      'Redux Toolkit',
+      'Node.js (Child Process)',
+      'TanStack Query',
+      'Zod',
+      'CI/CD'
     ],
   },
   {
     where: 'SD Company (Frontend Developer)',
     date: '06.2023 - 02.2024',
     description: `
-      Developed two key products: a high-performance, fully customizable e-commerce checkout platform (Next.js, Shopify API) and a real-time admin panel for monitoring and managing a network of IoT devices (React, RTK Query).
+      Architected a scalable <b>White-Label Checkout</b> solution (Next.js) with a unique <b>Runtime Configuration layer</b>, enabling merchants to customize UI and logic without code deployments. Achieved sub-second load times via intelligent <b>SSR caching strategies</b> and implemented complex, type-safe validation flows using <b>React Hook Form</b> and <b>Zod</b>.
     `,
-    technologies: ['Next.js', 'TanStack Query', 'React Hook Form', 'TypeScript'],
+    technologies: ['Next.js', 'TypeScript', 'TanStack Query', 'React Hook Form', 'Zod'],
   },
 ];

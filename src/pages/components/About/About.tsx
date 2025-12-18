@@ -47,7 +47,10 @@ export const About = () => (
                 </div>
                 <div className="work__experience-description">
                   <p className="work__experience--interval">{date}</p>
-                  <p className="work__experience-about">{description}</p>
+                  <p
+                    className="work__experience-about"
+                    dangerouslySetInnerHTML={{ __html: description }}
+                  />
                   <h4>The techniques I used:</h4>
                   <ul className="techs">
                     {technologies.map(tech => (
