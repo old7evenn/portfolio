@@ -16,7 +16,12 @@ export const Footer = () => {
           >
             <img alt="github" src={github} />
           </a>
-          <a href="https://t.me/xjzth" className="socialMedia" rel="noreferrer" target="_blank">
+          <a
+            href="https://t.me/stepaniukroman"
+            className="socialMedia"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img alt="tg" src={tg} />
           </a>
         </address>
